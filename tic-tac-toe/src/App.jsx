@@ -1,7 +1,9 @@
 import TicTicTacToe  from './Tic-Tac-Toe'
 import SimonSays from './SimonSays'
+import RPs from './RPs'
 import './App.css'
 import { Toaster } from 'react-hot-toast'
+import Stopwatch from './Stopwatch'
 function App() {
 
   return (
@@ -15,8 +17,10 @@ function App() {
     },
   }}
 />
-    {/* <TicTicTacToe/> */}
+    <TicTicTacToe/>
     <SimonSays/>
+    <Stopwatch/>
+    <RPs/>
     </>
   )
 }
